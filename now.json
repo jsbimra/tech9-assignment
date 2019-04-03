@@ -1,5 +1,19 @@
 {
     "version": 2,
     "name": "tech9test",
-    "alias": "tech9test"
+    "alias": "tech9test",
+    "builds": [
+        {
+            "src": "src",
+            "use": "@now/static"
+        },
+        {
+            "src": "src/*.html",
+            "use": "@now/static"
+        },
+        {
+            "src": "src/js/*.js",
+            "use": "@now/node"
+        }
+    ]
 }
