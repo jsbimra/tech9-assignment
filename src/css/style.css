@@ -1,0 +1,460 @@
+
+@media (max-width: 750px) {
+    .cart-footer {
+        padding: 10px 0;
+    }
+    .cart-help {
+        display:none;
+    }
+    .cart-checkout-action {
+        width: 100%;    
+        max-width: 100%;
+        flex: 100%;
+        margin:0 !important;
+    }
+
+    .promo-code {
+        text-align: center;
+    }
+    .promo-code .promo-label {
+        float:none;
+        text-align: center;
+    }
+    .promo-code .apply-action {
+        float:none;
+    }   
+    .promo-code .info-text h4 {
+        text-align: left;
+    }    
+    .promo-code .separator:last-child {
+        display:  none;
+    }
+    .cart-checkout-action .action {
+        float: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .cart-checkout-action .action a {
+        display:block;
+        float:none;
+        margin-bottom: -70px;
+    }
+    .cart-checkout-action .action .btn {
+        margin: 20px 0;
+        margin-top: 0px;
+        width:100%;
+    }
+    .cart-checkout-action .checkout-note {
+        float:none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cart-checkout-action .checkout-note span{
+        display:block;
+    }
+    .cart-checkout-action .checkout-note img {
+        margin-bottom: -50px;
+    }
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: rgb(167, 167, 167);
+}
+header {
+    padding: 30px 0 50px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(146, 146, 146);
+}
+h3 {
+    font-family: 'Muli', sans-serif;
+}
+
+.main-wrapper{
+
+}
+
+.main-content-area {
+
+}
+
+.cart-header{
+    padding: 10px 10px 0;
+    text-transform: uppercase;
+    color: rgb(167, 167, 167);
+
+}
+
+.cart-content {
+    padding: 0 10px;
+    font-size: .8rem;
+
+    /* border-style: solid;
+    border-width: 5px 0;
+    border-color: rgb(212, 212, 212); */
+}
+
+.cart-item-row {
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: rgb(212, 212, 212);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin: 0 -10px;
+}
+
+.cart-item-row:last-child{
+    padding-bottom: 10px;
+    border: none;
+}
+
+.cart-thumb{
+    float:left;
+    margin-right: 20px;
+}
+.cart-item-detail,
+.cart-actions {
+    color: rgb(167, 167, 167);
+    margin-top: 20px;
+}
+
+.cart-item-detail {
+    min-height: 85px;
+}
+
+.cart-item-detail h3{
+    color: rgb(46, 46, 46);
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.cart-item-detail label{
+    display:block;
+    line-height:.6rem;
+    font-size: .7rem;
+}
+
+.cart-actions a{
+    font-size: .75rem;
+    text-transform: uppercase;
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+}
+
+.cart-actions a:after {
+    content: ' ';
+    width: 1px;
+    height: 50%;
+    vertical-align: middle;
+    margin: 10px;
+    border-right: 1px solid rgb(206, 206, 206);
+}
+
+.cart-actions a:last-child:after {
+    border:none;
+}
+
+.qty-input, .form-control.qty-input{
+    font-size: .8rem;
+    height:auto;
+    width: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 0;
+}
+
+.price-text{
+    font-size: 1.3rem;
+}
+.price-text sup{
+    font-size: .7rem;
+}
+
+.separator{
+    width: 100%;
+    height: 5px;
+    background:  rgb(212, 212, 212);
+    clear: both;
+    margin: 15px 0;
+}
+
+.cart-footer {
+    padding: 50px 0;
+    font-size: .9rem;
+}
+
+.cart-help {
+    color: rgb(167, 167, 167);
+    font-size: .76rem;
+}
+.cart-help strong {
+    color: rgb(124, 124, 124);
+    display: block;
+    margin-bottom: 20px;
+}
+.cart-help a{
+    text-decoration: underline;
+}
+
+.form-control, .btn {
+    border-radius: 0;
+}
+
+.btn{
+    border: 1px solid grey;
+    text-transform: uppercase;
+}
+
+.cart-checkout-action {}
+
+.cart-checkout-action .action {
+    float: right;   
+    text-transform: uppercase;
+}
+
+.cart-checkout-action .action .btn {
+    border: none;
+    font-size: .9rem;
+    background-color: rgb(5, 9, 231);
+}
+.cart-checkout-action .action a {
+    text-decoration: underline;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.checkout-note {
+    vertical-align: bottom;
+    color: rgb(196, 196, 196);
+    clear: both;
+    text-align: right;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.checkout-note img {
+    vertical-align: bottom;
+    display: inline-block;
+    margin-right: 4px;
+}
+.promo-code {
+    font-size: .9rem;
+    overflow: hidden;
+    padding-bottom: 10px;
+}    
+.promo-code .promo-label{
+    text-transform: uppercase;
+    color: rgb(167, 167, 167);
+    float:left;
+    margin: 10px 0 0;
+}
+
+.promo-code .apply-action {
+    float:right;
+}
+
+.promo-code input {
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.promo-code input.form-control {
+    width: auto;
+}
+
+.promo-code .info-text {
+    overflow: hidden;
+    font-weight: 700;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+.promo-code .info-text h4{
+    color: rgb(124, 124, 124);
+    font-size: .85rem;
+}
+.promo-code .info-text h4 small {
+    color: rgb(196, 196, 196);
+    text-transform: capitalize;
+    display: block;
+    font-weight: 500;
+}
+
+.promo-code .info-text h3 {
+    font-size: 1.1rem;
+}
+.promo-code .info-text h3 sup {
+    font-size: 0.5rem;
+}
+.final-total-text {
+    border-top: 1px solid rgb(212, 212, 212);
+    padding-top: 20px;
+}
+
+.promo-code .final-total-text h4,
+.promo-code .final-total-text h3 {
+    font-size: 1.3rem;
+}
+
+.promo-code .final-total-text h4 small {
+    color: rgb(196, 196, 196);
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+.promo-code .final-total-text h3 {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.promo-code .final-total-text h3 sup{
+    font-size: .9rem;
+}
+.free-text {
+    color: rgb(124, 124, 124);
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+
+/* MODAL STYLE */
+
+.custom-modal-overlay {
+    background: rgb(59, 59, 59);
+    opacity: 0.1;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    display:none;
+}
+
+.custom-modal {
+    display:none;
+    background: #fff;
+    position: fixed;
+    z-index: 2;
+    /* width: calc(100vw/2); */
+    width: 600px;
+    top: 10%;
+    left: 50%;
+    margin-left: -300px;
+    min-height: 200px;
+}
+
+.custom-modal-body {
+    padding: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+.custom-modal .product-detail .separator {
+    background: rgb(243, 241, 241);
+}
+.custom-modal .product-detail {
+    float:left;
+    width: 146px;
+}
+
+.custom-modal .product-image {
+    text-align: center;
+    width: 50%;
+    float:right;
+}
+
+.custom-modal .product-image img {
+    width: 50%;
+}
+
+.custom-modal .product-detail .product--name {
+    font-size: 1rem;
+    color:rgb(171, 170, 170);
+}
+
+.custom-modal .product-detail .product--price {
+    vertical-align: middle;
+    font-size: 3.3rem;
+    margin-bottom: 20px;
+}
+.custom-modal .product-detail .product--price sup {
+    font-size: 1.3rem;
+    font-weight: normal;
+    vertical-align: middle;
+ }
+
+.custom-modal .product-detail .product--color strong{
+    font-size: 0.7rem;
+    display: block;
+    margin:0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+.custom-modal .product-detail .product--color .color-code{
+    display:inline-block;
+    font-size: 0;
+    width: 18px;
+    height:15px;
+    background: beige;
+    border:1px solid rgb(233, 233, 212);
+    vertical-align: middle;
+}
+.custom-modal .product-detail .product--color .color-code.green {
+    background-color: greenyellow;
+}
+
+.custom-modal .product-detail .product--color .color-code.active{
+    width: 22px;
+    height:17px;
+}
+
+.custom-modal .product-detail .product--selectControls select{
+    padding: 5px 8px;
+    border-color: rgb(243, 241, 241);
+}
+
+.custom-modal .product-detail .product--action {
+    margin-top: 15px;
+}
+
+.custom-modal .product-detail .product--action .btn {
+    border: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.custom-modal .product-detail .product--action a {
+    font-size: 0.7rem;
+    font-weight: 100;
+    text-decoration: underline;
+    color: rgb(131, 131, 131);
+}
+
+.custom-modal .modal-close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: 100;
+    font-size: 1.7rem;
+    line-height: .8;
+    color: rgb(224, 224, 224);
+}

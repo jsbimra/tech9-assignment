@@ -1,0 +1,6 @@
+//- cart-content.pug
+block append headScript
+    script(src='./../js/scripts.js')
+    script(src='./../js/cart/items-generator.js')
+
+section(class='cart-content' id='cartItemContainer' data-json= cartItems) cartItemContainer

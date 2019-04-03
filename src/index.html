@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tech9 Assignment</title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700|Poppins:300,400,500" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <article class="container">
+        <header>
+            <h1 class="logo">Your Shopping Bag</h1>
+        </header>
+
+        <section class="cart-header">
+            <div class="row">
+                <div class="col-md-6">
+                    <strong>3</strong> Items
+                </div>
+                <div class="col-md-2 text-center">Size</div>
+                <div class="col-md-2 text-center">Qty</div>
+                <div class="col-md-2 text-right">Price</div>
+            </div>
+        </section>
+
+        <div class="separator"></div>
+        <section class="cart-content">
+            <div class="row cart-item-row">
+                <div class="col-md-6">
+                    <img src="images/T1.jpg" class="cart-thumb" />
+                    <div class="cart-item-detail">
+                        <h3>Solid green cotton tshirt</h3>
+                        <label>Style #: MS13KT1906</label>
+                        <label>Colour: Blue</label>
+                    </div>
+                    <div class="cart-actions">
+                        <a href="javascript:void(0)" class="jsEdit">Edit</a>
+                        <a href="javascript:void(0)">X Remove</a>
+                        <a href="javascript:void(0)">Save for Later</a>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">S</div>
+                <div class="col-md-2 text-center">
+                    <input type="text" name="txtQty1" id="txtQty1" value="1" class="form-control qty-input" />
+                </div>
+                <div class="col-md-2 text-right price-text"><sup>$</sup>11.00</div>
+            </div>
+
+            <div class="row cart-item-row">
+                <div class="col-md-6">
+                    <img src="images/T2.jpg" class="cart-thumb" />
+                    <div class="cart-item-detail">
+                        <h3>Solid green cotton tshirt</h3>
+                        <label>Style #: MS13KT1906</label>
+                        <label>Colour: Blue</label>
+                    </div>
+                    <div class="cart-actions">
+                        <a href="javascript:void(0)" class="jsEdit">Edit</a>
+                        <a href="javascript:void(0)">X Remove</a>
+                        <a href="javascript:void(0)">Save for Later</a>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">S</div>
+                <div class="col-md-2 text-center">
+                    <input type="text" name="txtQty1" id="txtQty1" value="1" class="form-control qty-input" />
+                </div>
+                <div class="col-md-2 text-right price-text"><sup>$</sup>17.00</div>
+            </div>
+
+            <div class="row cart-item-row">
+                <div class="col-md-6">
+                    <img src="images/T3.jpg" class="cart-thumb" />
+                    <div class="cart-item-detail">
+                        <h3>Solid green cotton tshirt</h3>
+                        <label>Style #: MS13KT1906</label>
+                        <label>Colour: Blue</label>
+                    </div>
+                    <div class="cart-actions">
+                        <a href="javascript:void(0)" class="jsEdit">Edit</a>
+                        <a href="javascript:void(0)">X Remove</a>
+                        <a href="javascript:void(0)">Save for Later</a>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">S</div>
+                <div class="col-md-2 text-center">
+                    <input type="text" name="txtQty1" id="txtQty1" value="1" class="form-control qty-input" />
+                </div>
+                <div class="col-md-2 text-right price-text"><sup>$</sup>09.00</div>
+            </div>
+        </section>
+        <div class="separator"></div>
+
+        <section class="cart-footer">
+            <div class="row">
+                <div class="col-md-2 cart-help">
+                    <strong>Need help or have questions?</strong>
+                    <p>Call Customer Service at 1-800-555-5555</p>
+                    <p><a href="">Chat with one of our stttylists</a></p>
+                    <p><a href="">See return & exchange policy</a></p>
+                </div>
+                <div class="col-md-9 offset-md-1 cart-checkout-action">
+                    <div class="promo-code">
+                        <div class="clearfix">
+                            <label class="promo-label">Enter Promotion code or Gift card</label>
+                            <div class="apply-action">
+                                <input type="text" class="form-control" />
+                                <input type="button" class="btn btn-default" value="Apply" />
+                            </div>
+                        </div>
+                        <div class="separator"></div>
+
+                        <div class="info-text">
+                            <h4 class="float-left">SUBTOTAL</h4>
+                            <h3 class="float-right"><sup>$</sup>37.00</h3>
+                        </div>
+                        <div class="info-text">
+                            <h4 class="float-left">Promotion code JF10 applied</h4>
+                            <h3 class="float-right">-<sup>$</sup>7.00</h3>
+                        </div>
+                        <div class="info-text">
+                            <h4 class="float-left">Estimated shipping* <small>You qualify for Free
+                                    shipping because your order is over $50*
+                                </small></h4>
+                            <h3 class="float-right"><span class="free-text">Free</span></h3>
+                        </div>
+                        <div class="info-text final-total-text">
+                            <h4 class="float-left">Estimated total* <small>Tax Will be applied during checkout
+                                </small></h4>
+                            <h3 class="float-right"><sup>$</sup>30.00</h3>
+                        </div>
+                        <div class="separator"></div>
+                    </div>
+                    <div class="action">
+                        <a href="#">Continue Shopping</a>
+                        <button class="btn btn-primary">Checkout</button>
+                    </div>
+                    <p class="checkout-note"><img src="images/lock.jpg" alt="secure-img" />
+                        <span>Secure checkout. Shopping is always safe & secure</span></p>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <div class="custom-modal-overlay jsModalOverlay"></div>
+    <div class="custom-modal jsCustomModal">
+        <a href="javascripts:void(0)" class="modal-close jsModalClose">X</a>
+
+        <div class="custom-modal-body">
+            <div class="product-detail">
+                <div class="separator"></div>
+                <h3 class="product--name">PAISLEY JEAN</h3>
+                <h2 class="product--price"><sup>$</sup> 21</h2>
+
+                <div class="product--color">
+                    <strong>PAISLEY</strong>
+                    <label class="color-code beige active">b</label>
+                    <label class="color-code green">g</label>
+                </div>
+
+                <div class="product--selectControls">
+                    <select class="">
+                        <option>Size</option>
+                    </select>
+                    <select class="">
+                        <option>Qty: 1</option>
+                    </select>
+                </div>
+
+                <div class="product--action">
+                    <button class="btn btn-primary">EDIT</button>
+                    <a href="#">See product details</a>
+                </div>
+
+            </div>
+            <div class="product-image">
+                <img src="images/P1.jpg" alt="pant-thumb" />
+            </div>
+        </div>
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

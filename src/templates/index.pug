@@ -1,0 +1,28 @@
+doctype html
+html
+    head
+        title Tech9 Assignment
+        link(href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Muli:300,400,700|Poppins:300,400,500', rel='stylesheet')
+        link(href='../css/style.css' rel='stylesheet')
+
+    //- script(src='//cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js')
+    
+    block headScript
+        script(src='//unpkg.com/rxjs/bundles/rxjs.umd.min.js')
+        script(src='//code.jquery.com/jquery-3.3.1.min.js')
+        
+    body
+        article.container
+            include header.pug
+
+            include cart/cart-header.pug
+
+            .separator
+
+            include cart/cart-content.pug
+            
+            .separator
+
+        include modal.pug
+    block footScript
